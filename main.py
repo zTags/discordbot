@@ -1,5 +1,4 @@
 import discord
-from discord.enums import NotificationLevel
 from discord.ext import commands
 
 from cogs.filter import Filter
