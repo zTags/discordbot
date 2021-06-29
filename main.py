@@ -22,7 +22,7 @@ async def on_ready():
 async def _help(ctx):
     embed = discord.Embed(title="Help", footer="[GitHub](https://github.com/zTags/BasicDiscordBot)")
     embed.add_field(name="Arguments", value="<arg> is required, [arg] is optinal, run `$<command>` help for detailed help", inline=false)
-    embed.add_field(name="Moderation Commands", value="```$nickname <user> [nickname], ```", inline=false)
+    embed.add_field(name="Moderation Commands", value="```$kick <user>, $ban <user> ```", inline=false)
     await ctx.send(embed=embed)
 
     
